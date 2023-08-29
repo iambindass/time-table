@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Handjet:wght@100;300;400&family=Open+Sans:ital@1&family=Roboto&family=Roboto+Slab:wght@500&display=swap');
+body {
+    background-color: rgb(254,216,216);
+    height: 100vh;
+    text-align: center;
+}
+.content{
+   height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-collapse: collapse;
+  
+}
+#red{
+    background-color: rgb(205, 9, 9);
+    color: white;
+}
+table,th,td{
+    padding: 20px;
+}
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  tr:nth-child(odd){
+    background-color: white;
+  }
+#LUNCH{
+    background-color: white;
+}
+#title{
+    padding: 20px;
+}
+#img1{
+    width: 400px;
+    top: 20px;
+    padding-right: 900px;
+}
+#img2{
+    width: 50px;
+    position: absolute;
+    top: 83px;
+    padding-left: 250px;
+
+}
+#student{
+    font-family: 'Open Sans','sans-serif';
+    position: absolute;
+    top: 100px;
+    padding-left: 1070px;
+    color: rgb(205, 9, 9);
+    font-size: x-large;
+  
+}
+#courses{font-family: 'Open Sans','sans-serif';
+    position: absolute;
+    top: 100px;
+    padding-left: 1200px;
+    color: rgb(205, 9, 9);
+    font-size: x-large;}
+
